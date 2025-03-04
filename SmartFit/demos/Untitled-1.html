@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitStyle - Tu Gimnasio de Confianza</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1500x600?text=Gimnasio+Fondo');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <nav class="bg-blue-700 text-white p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">FitStyle Gym</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#inicio" class="hover:text-blue-200">Inicio</a></li>
+                <li><a href="#servicios" class="hover:text-blue-200">Servicios</a></li>
+                <li><a href="#horarios" class="hover:text-blue-200">Horarios</a></li>
+                <li><a href="#contacto" class="hover:text-blue-200">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero-section text-white text-center py-20">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold mb-4">Transforma Tu Cuerpo, Cambia Tu Vida</h2>
+            <p class="text-xl mb-8">Entrena con los mejores equipos y entrenadores en FitStyle gym.</p>
+            <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                ¡Inscríbete Ahora!
+            </a>
+        </div>
+    </header>
+    <section id="servicios" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <img src="images/entrenamientogrupal.jpg" alt="Entrenamiento Grupal" class="mx-auto mb-4 rounded">
+                <h3 class="text-xl font-semibold mb-4">Entrenamiento Grupal</h3>
+                <p>Clases dirigidas para motivarte y alcanzar tus metas</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <img src="images/entrenamientopersonal.jpg""Entrenamiento Personal" class="mx-auto mb-4 rounded">
+                <h3 class="text-xl font-semibold mb-4">Entrenamiento Personal</h3>
+                <p>Coaching personalizado con nuestros expertos</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <img src="images/asesorianutricional.jpg" alt="Asesoría Nutricional" class="mx-auto mb-4 rounded">
+                <h3 class="text-xl font-semibold mb-4">Asesoría Nutricional</h3>
+                <p>Planes nutricionales adaptados a tus objetivos</p>
+            </div>
+        </div>
+    </section>
+    <section id="horarios" class="bg-blue-50 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Horarios de Clases</h2>
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <table class="w-full text-center">
+                    <thead class="bg-blue-600 text-white">
+                        <tr>
+                            <th class="p-3">Hora</th>
+                            <th class="p-3">Lunes</th>
+                            <th class="p-3">Martes</th>
+                            <th class="p-3">Miércoles</th>
+                            <th class="p-3">Jueves</th>
+                            <th class="p-3">Viernes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p-3 font-semibold">6:00 AM</td>
+                            <td class="p-3">Yoga</td>
+                            <td class="p-3">Spinning</td>
+                            <td class="p-3">Crossfit</td>
+                            <td class="p-3">Zumba</td>
+                            <td class="p-3">Pilates</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="p-3 font-semibold">7:30 AM</td>
+                            <td class="p-3">HIIT</td>
+                            <td class="p-3">Boxeo</td>
+                            <td class="p-3">GAP</td>
+                            <td class="p-3">Cardio</td>
+                            <td class="p-3">Funcional</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="ubicacion" class="container mx-auto py-16 px-4">
+        <section id="ubicacion" class="container mx-auto py-16 px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Nuestra Ubicación</h2>
+            <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4">PowerFit Gym</h3>
+                        <p class="mb-2"><strong>Dirección:</strong> Carrera 42 # 33B sur - 50 - Obrero Envigado, Antioquia </p>
+                        <p class="mb-2"><strong>Ciudad:</strong> Envigado, Antioquia</p>
+                        <p class="mb-2"><strong>Teléfono:</strong> 305 2344968</p>
+                        <p class="mb-4"><strong>Horario:</strong> Lunes a Viernes: 6:00 AM - 10:00 PM</p>
+                        
+                        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                            Cómo Llegar
+                        </a>
+                    </div>
+                    <div class="bg-gray-200 p-2 rounded">
+                        <img src="images/maps.jpeg" alt="Mapa de Ubicación de FitStyle Gym" class="w-full h-64 object-cover rounded">
+                        <p class="text-center mt-2 text-sm text-gray-600">
+                            Haz clic para ver mapa detallado
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section id="testimonios" class="container mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">Testimonios</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="italic mb-4">"Increíble transformación en mi vida gracias a FitStyle Gym"</p>
+                <div class="flex items-center">
+                    <img src="images/maria.jpg" alt="María" class="rounded-full mr-4">
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="italic mb-4">"Los entrenadores son increíbles, muy profesionales"</p>
+                <div class="flex items-center">
+                    <img src="images/juan.jpg" alt="Juan" class="rounded-full mr-4">
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="italic mb-4">"Encontré mi mejor versión en FitStyle"</p>
+                <div class="flex items-center">
+                    <img src="images/mujer2.jpg" alt="Ana" class="rounded-full mr-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contáctanos</h2>
+            <div class="max-w-lg mx-auto">
+                <form class="bg-white p-8 rounded-lg shadow-md text-gray-800">
+                    <input type="text" placeholder="Nombre" class="w-full p-3 mb-4 border rounded">
+                    <input type="email" placeholder="Correo Electrónico" class="w-full p-3 mb-4 border rounded">
+                    <textarea placeholder="Tu Mensaje" class="w-full p-3 mb-4 border rounded" rows="4"></textarea>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">
+                        Enviar Mensaje
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>© 2024 FitStyle Gym. Todos los derechos reservados.</p>
+            <div class="mt-4">
+                <a href="#" class="mx-2 hover:text-blue-300">Política de Privacidad</a>
+                <a href="#" class="mx-2 hover:text-blue-300">Términos de Servicio</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
